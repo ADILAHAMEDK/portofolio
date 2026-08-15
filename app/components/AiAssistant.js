@@ -48,12 +48,12 @@ export default function AntigravityAssistant() {
   const [copiedIndex, setCopiedIndex] = useState(null);
   const chatEndRef = useRef(null);
 
-  const scrollToBottom = () => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+  // const scrollToBottom = () => {
+  //   chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  // };
 
   useEffect(() => {
-    scrollToBottom();
+    // scrollToBottom();
   }, [messages, isTyping]);
 
   const handleSend = (textToSend) => {

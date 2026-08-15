@@ -3,9 +3,9 @@ import { ThemeProvider } from "next-themes";
 import NavBar from "./components/NavBar";
 
 export const metadata = {
-  title: "Adil Ahamed | Modern Frontend Developer & Antigravity AI Engineer",
-  description: "Aesthetic Dark UI Portfolio website built with Next.js, HTML5, CSS3, JavaScript, Tailwind CSS, and Google Antigravity AI agents.",
-  keywords: ["Frontend Developer Portfolio", "Next.js Portfolio", "Antigravity AI Website", "JavaScript Coding Projects", "Dark UI Design"],
+  title: "Adil Ahamed | Modern Frontend Developer",
+  description: "Aesthetic Dark UI Portfolio website built with Next.js, HTML5, CSS3, JavaScript, Tailwind CSS.",
+  keywords: ["Frontend Developer Portfolio", "Next.js Portfolio", "JavaScript Coding Projects", "Dark UI Design"],
 };
 
 export default function RootLayout({ children }) {

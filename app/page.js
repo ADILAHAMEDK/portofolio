@@ -1,5 +1,5 @@
 import HeroSection from './components/HeroSection';
-import AiAssistant from './components/AntigravityAssistant';
+import AiAssistant from './components/AiAssistant';
 import ProjectShowcase from './components/ProjectShowcase';
 import TechStack from './components/TechStack';
 import ExperienceTimeline from './components/ExperienceTimeline';

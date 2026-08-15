@@ -10,7 +10,7 @@ export default function NavBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      setScrolled(window.scrollY > 0);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -21,7 +21,6 @@ export default function NavBar() {
     { name: 'AI Assistant', href: '#ai-assistant', icon: Sparkles },
     { name: 'Projects', href: '#projects', icon: FolderGit2 },
     { name: 'Tech Stack', href: '#tech-stack', icon: Cpu },
-    // { name: 'Code Playground', href: '#playground', icon: Terminal },
     { name: 'Experience', href: '#experience', icon: Layers },
     { name: 'Contact', href: '#contact', icon: Mail },
   ];
@@ -44,7 +43,6 @@ export default function NavBar() {
             <span className="font-bold text-lg tracking-tight text-slate-100 flex items-center gap-1.5">
               Adil Ahamed 
             </span>
-            {/* <p className="text-[10px] text-slate-400 -mt-0.5 tracking-wider uppercase">Google Antigravity Stack</p> */}
           </div>
         </a>
 
